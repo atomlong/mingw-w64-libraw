@@ -6,6 +6,7 @@ pkgbase = mingw-w64-libraw
 	arch = any
 	license = LGPL
 	makedepends = mingw-w64-make
+	makedepends = mingw-w64-cmake
 	makedepends = git
 	depends = mingw-w64-crt
 	depends = mingw-w64-lcms2
@@ -21,4 +22,3 @@ pkgbase = mingw-w64-libraw
 	sha256sums = SKIP
 
 pkgname = mingw-w64-libraw
-

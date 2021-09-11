@@ -13,7 +13,7 @@ depends=(
 	"mingw-w64-jasper"
 	"mingw-w64-zlib"
 )
-makedepends=("mingw-w64-make" "git")
+makedepends=("mingw-w64-make" "mingw-w64-cmake" "git")
 arch=("any")
 options=(!strip !buildflags staticlibs)
 optdepends=()
